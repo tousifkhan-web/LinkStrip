@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "LinkStrip",
+  "version": "1.0",
+  "description": "Bypasses right-click blocks to find direct videos and clean YouTube links, copying them for FDM.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tousifkhanweb.linkstrip@gmail.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "LinkStrip",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
